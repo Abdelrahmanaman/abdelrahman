@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* 
+## Colors
+
+### Primary
+
+Very Dark Magenta: hsl(300, 43%, 22%)
+Soft Pink: hsl(333, 80%, 67%)
+
+### Neutral
+
+Dark Grayish Magenta: hsl(303, 10%, 53%)
+Light Grayish Magenta: hsl(300, 24%, 96%)
+White: hsl(0, 0%, 100%) */
+
+body{
+    font-family:"League Spartan";
+    font-size: 15px;
+    background-image: url(bg-pattern-top-desktop.svg), url(bg-pattern-bottom-desktop.svg);
+    background-position:left top,  right bottom  ;
+    background-repeat: no-repeat;
+    max-width: 1440px;
+    min-height: 100vh;
+}
+.container h1{
+    display: flex;
+    font-family: "League Spartan";
+    font-weight: 800;
+    font-size:50px ;
+    color: hsl(300, 43%, 22%);
+    text-align: justify;
+    max-width: 400px;
+    word-spacing: -13px;
+    line-height: 0.8;
+    letter-spacing: 0.1em;
+    margin-top: 130px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    /* background-color: red; */
+}
+.container header p{
+    font-size: 16px;
+    color: hsl(303, 10%, 53%);
+    word-spacing: -0.1rem;
+    font-weight: 500;
+    line-height: 1.5;
+    margin-top: 20px;
+    margin-left: 100px;
+    max-width: 350px;
+    text-align: justify;
+}
+.container-rate{
+    /* display: flex; */
+}
+.rate1, .rate2, .rate3{
+    float: right;
+}
+.rate1, .rate2, .rate3{
+    margin-top: -190px;
+    margin-right: 200px;
+    background-color: hsl(300, 24%, 96%);
+    max-width: 380px;
+    height: 45px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+}
+.rate1 img, .rate2 img, .rate3 img {
+    max-width: 100%;
+    height: auto;
+    /* padding-left: 20px; */
+    margin-left: 5px; /* Add spacing between images */
+    
+}
+
+.rate1 figcaption, .rate2 figcaption, .rate3 figcaption {
+    flex-grow: 1; /* Allow caption to take available space */
+    text-align: right; /* Align text to the right */
+    padding: 10px;
+    color: hsl(300, 43%, 22%);
+    font-weight: bolder;
+    margin-right: 50px;
+    white-space: nowrap;
+}
+.rate1 div, .rate2 div, .rate3 div{
+    margin-left: 20px;
+}
+
+.rate2{
+    margin-top:-120px;
+    white-space: nowrap;
+    font-weight: bolder;
+    size: 15px;
+    margin-right: 150px;
+}
+.rate3{
+    margin-top:-50px;
+    margin-right: 100px;
+}
+.rate2 figcaption{
+    margin-right: 20px;
+}
+.container2{
+    display: flex;
+    flex-flow: row;
+    margin-top: 70px;
+    margin-left: 100px;
+
+}
+.ff1, .ff2, .ff3{
+    background-color: hsl(300, 43%, 22%);
+    margin-right: 20px;
+    height: 240px;
+    border-radius: 6px;
+    color: white;
+   
+}
+.f1 img, .f2 img, .f3 img{
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 30px;
+    display: inline-block;
+    border-radius: 50%;
+    height: 40px;
+}
+.name1, .name2, .name3{
+    margin-left: 90px;
+    margin-top: -45px;
+    margin-bottom: 50px;
+    height: 20px;
+    
+
+}
+blockquote{
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: -20px;
+    text-align: justify;
+    line-height: 1.5;
+    max-width: 300px;
+    font-size: 17px;
+}
+span{
+    color: hsl(333, 80%, 67%)
+    ;
+}
+.name1 p,
+.name2 p,
+.name3 p {
+    margin-bottom: 5px; /* Add the desired margin value */
+}
+.ff2{
+    margin-top: 50px;
+    margin-left: 20px;
+}
+.ff3{
+    margin-top: 100px;
+    margin-left: 20px;
+}
